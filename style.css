@@ -1,0 +1,437 @@
+body {
+    margin: 0;
+    background: url(https://preview.colorlib.com/theme/elit/images/img_9.jpg) center center fixed no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+}
+
+#cabecalho a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#btn_contato h2 {
+    font-size: 18px;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+
+#main2 {
+    float: right;
+    width: 85%;
+    backdrop-filter: brightness(0%);
+}
+#photos{
+
+    row-gap: 3px;
+    column-gap: 3px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.photo {
+    
+    width: 32.9%;
+    height: 400px;
+    
+}
+.photo img{
+
+    height: 400px;
+    overflow: clip;
+    position: relative;
+    border-style: none;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#testimonial{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    display: flex;
+    
+}
+#pessoa h2{
+    text-align: center;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    font-size: 22px;
+}
+#testemunho{
+    width: 60%;
+    text-align: center;
+    line-height: 35px;
+}
+
+
+#social a {
+    color: white;
+    padding-right: 35px;
+}
+
+
+#menu a {
+    font-size: 16px;
+    font-weight: 50;
+}
+
+
+.site_logo {
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 12% 0 8% 12%;
+    color: white;
+    font-size: 26px;
+    
+
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    height: 95%;
+}
+
+#main {
+    float: right;
+    width: 85%;
+    height: 100vh;
+    backdrop-filter: brightness(60%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+.botao input{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+}
+
+#perfil{
+    margin: 70px 0 30px;
+}
+#perfil img{
+    
+    width: 200px;
+    border-radius: 50%;
+}
+#biografia{
+    width: 100%;
+    
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container_biografia{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    width: 65%;
+    height: 90%;
+}
+#foto_biografia img{
+    width: 430px;
+    border-radius: 5px;
+}
+#biografia #div_titulo h1{
+    font-family: "Oswald", arial, sans-serif;
+    font-size: 86px;
+    text-align: left;
+    font-weight: lighter;
+    color: white;
+    margin: 35px 0 70px;
+}
+.texto_biografia p{
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 35px;
+}
+.texto_biografia h2{
+    font-size: 40px;
+    color: white;
+}
+#testemunho p{
+    
+    text-align: center;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+#div_titulo h1{
+    font-family: "Oswald", arial, sans-serif;
+    font-size: 86px;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    margin: 0;
+}
+.content h2{
+    font-size: x-large;
+    font-family: "Oswald", arial, sans-serif;
+    font-weight: 200;
+    color: white;
+}
+.content img{
+    margin-right: 50px;
+    float: left;
+}
+#Blogue_content #div_titulo{
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+.form-control{
+    border: none;
+    background-color: #1a1a1a;
+    padding: 5px;
+}
+.text-white{
+    color: white;
+}
+.junta{
+    margin-top: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    
+}
+.name input{
+    margin-top: 3vh;
+
+    
+}
+
+.content{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content p{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 35px;
+}
+.content img{
+
+    width: 38%;
+}
+.content #text{
+    display: flex;
+    flex-direction: column;
+}
+.botao_div{
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+}
+form label{
+    font-size: medium;
+}
+
+#principal {
+
+    width: 52%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-family: "Oswald", arial, sans-serif;
+    font-size: 64px;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    margin: 0;
+}
+
+#title h1 {
+    font-weight: 200;
+    margin: 0;
+}
+
+#subtitulo {
+
+    text-align: center;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+#subtitulo p {
+    margin: 0 0 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 55%;
+}
+.sozinha{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.maior{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+}
+.maior input{
+    margin-top: 3vh;
+    width: 100%;
+}
+.maior textarea{
+    margin-top: 3vh;
+    width: 100%;
+}
+#questionario{
+    width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form #div_titulo h1{
+    width: 100%;
+    font-family: "Oswald", arial, sans-serif;
+    font-size: 64px;
+    font-weight: lighter;
+    color: white;
+    margin-top: 10vh;
+    text-align: left;
+}
+
+
+#div_list{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10vh;
+}
+.check_list{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.itens{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 35px;
+}
+#color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#color div{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.itens img{
+    margin-right: 20px;
+    float: left;
+    width: 15px;
+    height: 15px;
+}
+#Blogue{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Blogue_content{
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    width: 70%;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+
+#btn_contato {
+    background-color: #df0e62;
+    border-radius: 50px;
+    border-color: #df0e62;
+    padding: 20px 40px;
+
+}
+#cabecalho {
+    float: left;
+    position: fixed;
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    flex-direction: column;
+    width: 15%;
+    height: 100vh;
+    background-color: black;
+
+}
+
+#menu {
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#social {
+    margin-top: 3rem;
+    display: flex;
+
+}
